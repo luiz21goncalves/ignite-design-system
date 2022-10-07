@@ -1,0 +1,8 @@
+{
+  "author": "Luiz Gonçalves <luizhbgoncalves@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
