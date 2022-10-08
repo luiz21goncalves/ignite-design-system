@@ -1,0 +1,19 @@
+import type { Meta, StoryObj } from '@storybook/react'
+import { Box, BoxProps } from '@ignite-ui/react'
+
+export default {
+  title: 'Surfaces/Box',
+  component: Box,
+  args: {
+    children: (
+      <span>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, minus
+        sint tempora dolores distinctio perferendis repellendus rerum labore
+        corrupti maxime, eveniet laudantium cupiditate modi quidem quis?
+        Voluptatem fuga debitis pariatur.
+      </span>
+    ),
+  },
+} as Meta<BoxProps>
+
+export const Primary: StoryObj<BoxProps> = {}
