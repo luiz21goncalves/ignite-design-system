@@ -1,3 +1,1 @@
-import { colors } from '@ignite-ui/tokens'
-
-console.log('react')
+export const log = 'LOG'

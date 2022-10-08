@@ -7,9 +7,12 @@
   "license": "MIT",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint src --ext .ts,.tsx,.js,.jsx --fix"
   },
   "devDependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/ts-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
