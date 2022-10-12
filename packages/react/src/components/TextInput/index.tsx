@@ -17,3 +17,5 @@ export function TextInput(props: TextInputProps) {
     </S.TextContainer>
   )
 }
+
+TextInput.displayName = 'TextInput'

@@ -26,6 +26,8 @@ export const Heading = styled('h2', {
   },
 })
 
+Heading.displayName = 'Heading'
+
 export type HeadingProps = ComponentProps<typeof Heading> & {
   as?: ElementType
 }
