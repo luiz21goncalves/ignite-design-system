@@ -7,6 +7,14 @@ export default {
   args: {
     placeholder: 'Add any observations...',
   },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+      defaultValue: false,
+    },
+  },
   decorators: [
     (Story) => {
       return (

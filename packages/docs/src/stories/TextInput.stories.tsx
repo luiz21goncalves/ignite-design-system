@@ -7,6 +7,19 @@ export default {
   args: {
     placeholder: 'Type your username',
   },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+      defaultValue: false,
+    },
+    prefix: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (

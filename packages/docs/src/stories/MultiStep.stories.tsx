@@ -12,6 +12,14 @@ export default {
       return <Box>{Story()}</Box>
     },
   ],
+  argTypes: {
+    currentStep: {
+      control: {
+        type: 'number',
+        min: 1,
+      },
+    },
+  },
 } as Meta<MultiStepProps>
 
 export const Primary: StoryObj<MultiStepProps> = {}

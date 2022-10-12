@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/diego3g.png',
     alt: 'Diego Fernandes CTO at Rockeatseat',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
