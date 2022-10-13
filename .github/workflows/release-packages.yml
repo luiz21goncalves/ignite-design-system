@@ -18,14 +18,19 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          always-auth: true
+          registry-url: 'https://npm.pkg.github.com'
+          scope: "@luiz21goncalves"
 
-      - name: Install dependecies
-        uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
 
       - name: Build
-        run: yarn build
+        run: yarn build --filter=packages/docs
 
       - name: Publish
         run: yarn release
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
