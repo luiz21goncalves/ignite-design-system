@@ -1,4 +1,4 @@
-# @luiz21goncalves/react
+# @luiz21goncalves/eslint-config
 
 ## 1.0.0
 

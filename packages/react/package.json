@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/react",
+  "name": "@luiz21goncalves/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +12,7 @@
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
   },
   "publishConfig": {
-    "@luiz21goncalves:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@luiz21goncalves"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.0",
@@ -21,9 +21,9 @@
     "phosphor-react": "^1.4.1"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@luiz21goncalves/eslint-config": "*",
+    "@luiz21goncalves/tokens": "*",
+    "@luiz21goncalves/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",

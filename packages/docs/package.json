@@ -1,8 +1,9 @@
 {
-  "name": "@ignite-ui/docs",
-  "version": "1.0.0",
+  "name": "@luiz21goncalves/docs",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
@@ -11,8 +12,8 @@
     "deploy": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@luiz21goncalves/react": "*",
+    "@luiz21goncalves/tokens": "*",
     "@storybook/addon-a11y": "^6.5.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
@@ -21,8 +22,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/ts-config": "*",
+    "@luiz21goncalves/eslint-config": "*",
+    "@luiz21goncalves/ts-config": "*",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-interactions": "^6.5.12",
