@@ -11,6 +11,9 @@
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
   },
+  "publishConfig": {
+    "@luiz21goncalves:registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.0",
     "@radix-ui/react-checkbox": "^1.0.0",

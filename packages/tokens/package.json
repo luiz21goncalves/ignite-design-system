@@ -11,6 +11,9 @@
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
   },
+  "publishConfig": {
+    "@luiz21goncalves:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/ts-config": "*",
