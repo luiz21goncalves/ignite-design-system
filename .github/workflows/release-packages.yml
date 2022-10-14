@@ -20,7 +20,7 @@ jobs:
           node-version: 16
           always-auth: true
           registry-url: 'https://npm.pkg.github.com'
-          scope: "@luiz21goncalves"
+          scope: '@luiz21goncalves'
 
       - name: Install dependecies
         uses: bahmutov/npm-install@v1
