@@ -22,8 +22,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: "@luiz21goncalves"
 
-      - name: Install dependencies
-        run: yarn --frozen-lockfile
+      - name: Install dependecies
+        uses: bahmutov/npm-install@v1
 
       - name: Build
         run: yarn build
