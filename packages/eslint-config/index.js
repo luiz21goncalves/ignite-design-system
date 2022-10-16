@@ -1,4 +1,3 @@
-module.exports = {
-  extends: ["@rocketseat/eslint-config/react"],
-  ignorePatterns: ["node_modules", "dist"]
-}
+const eslintConfig = require('./.eslintrc.json')
+
+module.exports = eslintConfig
