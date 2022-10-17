@@ -1,4 +1,5 @@
 import { ComponentProps } from 'react'
+
 import * as S from './styles'
 
 export type TextInputProps = ComponentProps<typeof S['Input']> & {

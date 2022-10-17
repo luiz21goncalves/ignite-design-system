@@ -1,4 +1,5 @@
 import type { ElementType, ComponentProps } from 'react'
+
 import { styled } from '../styles'
 
 export const Text = styled('p', {

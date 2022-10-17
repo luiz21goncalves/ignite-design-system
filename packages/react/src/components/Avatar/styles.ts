@@ -1,5 +1,6 @@
-import { styled } from '../../styles'
 import * as Avatar from '@radix-ui/react-avatar'
+
+import { styled } from '../../styles'
 
 export const AvatarContainer = styled(Avatar.Root, {
   width: '$12',

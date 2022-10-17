@@ -1,6 +1,7 @@
-import * as S from './styles'
 import { User } from 'phosphor-react'
 import type { ComponentProps } from 'react'
+
+import * as S from './styles'
 
 export type AvatarProps = ComponentProps<typeof S['AvatarImage']>
 
