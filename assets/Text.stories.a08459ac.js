@@ -1,0 +1,2 @@
+import{T as t}from"./index.00fd0b43.js";import"./index.388f596c.js";import"./iframe.7e9c0a53.js";import"./index.43e36dcf.js";import"./jsx-runtime.f4bb54ba.js";const l={title:"Typography/Text",component:t,args:{children:"Lorem ipsum dolor sit amet, consectetur adipisicing elit."},argTypes:{size:{options:["xxs","xs","sm","md","lg","xl","2xl","4xl","5xl","6xl","7xl","8xl","9xl"],control:{type:"inline-radio"},defaultValue:"md"}}},m={},x=["Primary"];export{m as Primary,x as __namedExportsOrder,l as default};
+//# sourceMappingURL=Text.stories.a08459ac.js.map
