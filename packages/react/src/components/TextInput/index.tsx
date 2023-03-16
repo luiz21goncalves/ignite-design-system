@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementRef, forwardRef } from 'react'
 
 import * as S from './styles'
 
@@ -6,7 +6,10 @@ export type TextInputProps = ComponentProps<typeof S['Input']> & {
   prefix?: string
 }
 
-export function TextInput(props: TextInputProps) {
+export const TextInput = forwardRef<
+  ElementRef<typeof S['Input']>,
+  TextInputProps
+>((props, ref) => {
   const { prefix, ...attrs } = props
 
   const hasPrefix = Boolean(prefix)
@@ -14,9 +17,9 @@ export function TextInput(props: TextInputProps) {
   return (
     <S.TextContainer>
       {hasPrefix && <S.Prefix>{prefix}</S.Prefix>}
-      <S.Input {...attrs} />
+      <S.Input ref={ref} {...attrs} />
     </S.TextContainer>
   )
-}
+})
 
 TextInput.displayName = 'TextInput'
