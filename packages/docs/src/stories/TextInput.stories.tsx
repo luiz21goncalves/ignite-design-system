@@ -50,5 +50,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'ignite.cal.com/',
+    placeholder: 'your-username',
   },
 }
