@@ -1,0 +1,2 @@
+import{A as t}from"./index.2142eed7.js";import"./index.adbfb171.js";import"./iframe.d060d72d.js";import"./index.ef2ad120.js";import"./jsx-runtime.2c59a110.js";const i={title:"Data display/Avatar",component:t,args:{src:"https://github.com/diego3g.png",alt:"Diego Fernandes CTO at Rockeatseat"},argTypes:{src:{control:{type:"text"}}}},c={},p={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,p as WithFallback,m as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories.40fc48cc.js.map

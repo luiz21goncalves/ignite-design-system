@@ -1,0 +1,2 @@
+import{H as i}from"./index.2142eed7.js";import"./index.adbfb171.js";import"./iframe.d060d72d.js";import"./index.ef2ad120.js";import"./jsx-runtime.2c59a110.js";const s={title:"Typography/Heading",component:i,args:{children:"Lorem ipsum dolor sit amet, consectetur adipisicing elit."},argTypes:{size:{options:["sm","md","lg","xl","2xl","4xl","5xl"],control:{type:"inline-radio"},defaultValue:"md"}}},m={},n=["Primary"];export{m as Primary,n as __namedExportsOrder,s as default};
+//# sourceMappingURL=Heading.stories.838a3ad0.js.map
